@@ -4,35 +4,45 @@
     <meta charset="utf-8" />
     <title>{% block title %} {% endblock %} | Ikal Temazcal</title>
     {% load static %}
-    <link rel='stylesheet' type='text/css' href="{% static 'css/styles.css'%}">
+    <link rel='stylesheet' type='text/css' href="{% static 'css/styles.css' %}">
   </head>
   <body>
+    <!-- Cabecera de  la pagina-->
+     <header>
+      <div id='logotipo'>
+        <!-- Logo del temazcal-->
+         <img src="{% static 'images/logo3.jpg'%}"/>
+      </div>
+     </header>
+     <nav>
+        <ul>
+          <li>
+            <a href="/inicio"><img src="{% static 'images/icono_inicio.PNG'%}"/></a>
+          </li>
+          <li>
+            <a href="/servicios">Servicios</a>
+          </li>
+          <li>
+            <a href="/conocenos">Conócenos</a>
+          </li>
+          <li>
+            <a href="/reservaciones">Reservaciones</a>
+          </li>
+          <li>
+            <a href="/ubicacion">Ubicación</a>
+          </li>
+        </ul>
+     </nav>
     <h1>Ikal Temazcal</h1>
     <hr />
-    <ul>
-      <li>
-        <a href="/inicio">Inicio</a>
-      </li>
-      <li>
-        <a href="/servicios">Servicios</a>
-      </li>
-      <li>
-        <a href="/conocenos">Conócenos</a>
-      </li>
-      <li>
-        <a href="/reservaciones">Reservaciones</a>
-      </li>
-      <li>
-        <a href="/ubicacion">Ubicación</a>
-      </li>
-    </ul>
-    <hr />
+    
     <div id="content">
+      <h2 class='title'>Ikal Temazcal</h2>
       {% block content %}
       <strong>Promociones:</strong>
       {% endblock %}
     </div>
-    <hr />
+
     <footer>
       Ikal Temazcal <br />
       Arcilla 1673 | Col. Arenales Tapatíos | 45066 Zapopan, Jal. <br />

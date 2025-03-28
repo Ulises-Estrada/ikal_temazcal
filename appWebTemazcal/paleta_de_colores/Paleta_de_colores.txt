@@ -1,0 +1,39 @@
+/* CSS HEX */
+ --pampas: #eeece6;
+--apple: #5ca32f;
+--arapawa: #0d216e;
+--armadillo: #363129;
+--muddy-waters: #b78454;
+--sandstone: #77655f;
+--blue-bell: #8e9cc7;
+--outer-space: #2c3437;
+--blue-bayoux: #485f7d;
+--victoria: #435195;
+
+
+/* SCSS HEX */
+$pampas: #eeece6;
+$apple: #5ca32f;
+$arapawa: #0d216e;
+$armadillo: #363129;
+$muddy-waters: #b78454;
+$sandstone: #77655f;
+$blue-bell: #8e9cc7;
+$outer-space: #2c3437;
+$blue-bayoux: #485f7d;
+$victoria: #435195;
+
+
+/* SCSS RGB */
+--pampas: rgba(238,236,230,1);
+--apple: rgba(92,163,47,1);
+--arapawa: rgba(13,33,110,1);
+--armadillo: rgba(54,49,41,1);
+--muddy-waters: rgba(183,132,84,1);
+--sandstone: rgba(119,101,95,1);
+--blue-bell: rgba(142,156,199,1);
+--outer-space: rgba(44,52,55,1);
+--blue-bayoux: rgba(72,95,125,1);
+--victoria: rgba(67,81,149,1);
+
+
